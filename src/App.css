@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-:root{
+.margin-style{
     margin-left: 7rem ;
     margin-right: 7rem ;
 }

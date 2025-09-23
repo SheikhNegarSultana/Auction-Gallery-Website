@@ -1,9 +1,11 @@
 import React from 'react';
 
+import '/./src/App.css'
+
 const Navbar = () => {
 
     return (
-        <div className=' mt-[2rem]'>
+        <div className=' margin-style mt-[1rem]'>
 
             <div className="navbar bg-base-100 ">
                 <div className="navbar-start">
