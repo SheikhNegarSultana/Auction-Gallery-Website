@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Fujifilm X-T10 Professional Camera",
+    "description": "A sleek mirrorless camera with a 16.3MP APS-C sensor and excellent build quality.",
+    "currentBidPrice": 450.00,
+    "timeLeft": "2d 3h 15m",
+    "bidsCount": 12,
+    "image": "https://i.postimg.cc/pVs8ydLZ/Bid1-min.png"
+  },
+  {
+    "id": 2,
+    "title": "Professional Electric Guitar",
+    "description": "A stunning blue electric guitar with a solid body and high-quality pickups.",
+    "currentBidPrice": 300.00,
+    "timeLeft": "1d 5h 30m",
+    "bidsCount": 8,
+    "image": "https://i.postimg.cc/xdVNBJ60/Bid2-min.png"
+  },
+  {
+    "id": 3,
+    "title": "Developer-Grade Laptop",
+    "description": "A powerful laptop displaying coding software, perfect for developers.",
+    "currentBidPrice": 800.00,
+    "timeLeft": "3d 12h 0m",
+    "bidsCount": 15,
+    "image": "https://i.postimg.cc/R01JmSYw/Bid3-min.png"
+  },
+  {
+    "id": 4,
+    "title": "Omega Professional Chronograph Watch",
+    "description": "A luxurious Omega chronograph watch with a blue dial and stainless steel band.",
+    "currentBidPrice": 1200.00,
+    "timeLeft": "4d 1h 45m",
+    "bidsCount": 6,
+    "image": "https://i.postimg.cc/Wzyh8hDc/Bid4-min.png"
+  },
+  {
+    "id": 5,
+    "title": "Vintage Wooden Chair",
+    "description": "A vintage wooden chair with intricate carvings, ideal for outdoor use.",
+    "currentBidPrice": 75.00,
+    "timeLeft": "1d 10h 20m",
+    "bidsCount": 3,
+    "image": "https://i.postimg.cc/G3g8dSXg/Bid5-min.png"
+  },
+  {
+    "id": 6,
+    "title": "Rupi Kaur Literary Collection",
+    "description": "A bestselling poetry book by Rupi Kaur, perfect for book lovers.",
+    "currentBidPrice": 15.00,
+    "timeLeft": "2d 8h 0m",
+    "bidsCount": 5,
+    "image": "https://i.postimg.cc/rFddmCbV/Bid6-min.png"
+  },
+  {
+    "id": 7,
+    "title": "Classic Floral Artwork",
+    "description": "A beautiful classic flower painting with vibrant colors and intricate details.",
+    "currentBidPrice": 200.00,
+    "timeLeft": "3d 6h 30m",
+    "bidsCount": 4,
+    "image": "https://i.postimg.cc/m20PF1fQ/Bid7-min.png"
+  }
+]
