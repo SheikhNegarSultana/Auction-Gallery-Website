@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Fujifilm X-T10 Professional Camera",
+    "title": "Vintage Leica M3 Camera",
     "description": "A sleek mirrorless camera with a 16.3MP APS-C sensor and excellent build quality.",
     "currentBidPrice": 450.00,
     "timeLeft": "2d 3h 15m",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "title": "Professional Electric Guitar",
+    "title": "1965 Gibson SG Standard Electric Guitar",
     "description": "A stunning blue electric guitar with a solid body and high-quality pickups.",
     "currentBidPrice": 300.00,
     "timeLeft": "1d 5h 30m",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "title": "Developer-Grade Laptop",
+    "title": "Original Apple Macintosh 128K (1984)",
     "description": "A powerful laptop displaying coding software, perfect for developers.",
     "currentBidPrice": 800.00,
     "timeLeft": "3d 12h 0m",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "title": "Omega Professional Chronograph Watch",
+    "title": "Rolex Submariner 16610",
     "description": "A luxurious Omega chronograph watch with a blue dial and stainless steel band.",
     "currentBidPrice": 1200.00,
     "timeLeft": "4d 1h 45m",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "title": "Vintage Wooden Chair",
+    "title": "Mid-Century Modern Eames Lounge Chair",
     "description": "A vintage wooden chair with intricate carvings, ideal for outdoor use.",
     "currentBidPrice": 75.00,
     "timeLeft": "1d 10h 20m",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "title": "Rupi Kaur Literary Collection",
+    "title": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
     "description": "A bestselling poetry book by Rupi Kaur, perfect for book lovers.",
     "currentBidPrice": 15.00,
     "timeLeft": "2d 8h 0m",
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "title": "Classic Floral Artwork",
+    "title": "Banksy Original Screen Print",
     "description": "A beautiful classic flower painting with vibrant colors and intricate details.",
     "currentBidPrice": 200.00,
     "timeLeft": "3d 6h 30m",
