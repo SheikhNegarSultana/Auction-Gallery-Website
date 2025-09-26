@@ -54,14 +54,12 @@ favItemsList.map( (item,index) => (
     </div>
 </div>
 
-
 </div>
 
 
 </div>))
 
 }
-
 
 
 {/* Total Amount */}
@@ -75,7 +73,6 @@ favItemsList.map( (item,index) => (
     </h1>
 </div>
 
-
     :
 
 <div className=' text-[1.1rem] border-t border-[#DCE5F3] flex justify-between px-[1.6rem] pt-[1rem] '>
@@ -84,9 +81,7 @@ favItemsList.map( (item,index) => (
     
 </div>
 
-}
-
-        
+}   
             
         </div>
     );
