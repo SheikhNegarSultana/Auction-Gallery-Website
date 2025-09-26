@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Auction from './Auction';
+import FavoriteItems from './FavoriteItems';
 
 const Auctions = () => {
 
@@ -11,6 +12,15 @@ const Auctions = () => {
         .then( data => setItems(data))
     },[])
 
+
+    const [favItemsList , setFavItemsList ] = useState([])
+
+    const handleFavCount = (favItemListDetails) =>{
+        setFavItemsList( prev => [...prev,favItemListDetails])
+    }
+
+
+    
     return (
         <>
 
@@ -24,7 +34,7 @@ const Auctions = () => {
         </div>
 
 
-<div className=' flex gap-[1rem] mt-[2rem] '>
+<div className=' flex gap-[1rem] mt-[2rem] items-start '>
 
         {/* Items */}
 <div className=' bg-white w-[70%] rounded-2xl   '>
@@ -32,15 +42,19 @@ const Auctions = () => {
 <table className="table-auto text-left">
   <thead className=' gap-[1rem] border-b border-[#DCE5F3]'>
     <tr>
-          <th class="px-[1rem] py-[1rem] font-normal ">Items</th>
-          <th class="px-4 py-3 font-normal ">Current Bid</th>
-          <th class="px-4 py-3 font-normal ">Time Left</th>
-          <th class="px-4 py-3 font-normal ">Bid Now</th>
+          <th className="px-[1rem] py-[1rem] font-normal ">Items</th>
+          <th className="px-4 py-3 font-normal ">Current Bid</th>
+          <th className="px-4 py-3 font-normal ">Time Left</th>
+          <th className="px-4 py-3 font-normal ">Bid Now</th>
     </tr>
   </thead>
   <tbody>
         {
-            items.map( item => <Auction key={item.id} item={item}></Auction> )
+            items.map( item => 
+            <Auction 
+            key={item.id} 
+            item={item}
+            handleFavCount={handleFavCount}></Auction> )
         }
   </tbody>
 </table>
@@ -49,8 +63,8 @@ const Auctions = () => {
 
 
         {/* Favorites */}
-        <div className='bg-white w-[30%]'>
-       
+        <div className='bg-white w-[30%] rounded-2xl '>
+       <FavoriteItems favItemsList={favItemsList}></FavoriteItems>
 
         </div>
 
