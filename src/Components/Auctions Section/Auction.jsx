@@ -5,11 +5,11 @@ import { ToastContainer, toast } from 'react-toastify';
 
 const Auction = ({ item, handleFavCount }) => {
 
-    const { image, title, currentBidPrice, timeLeft, bidsCount } = item
+    const { image, title, currentBidPrice, timeLeft, bidsCount,id } = item
 
     // React Toastify
 
-    const favItemListDetails = { image, title, currentBidPrice, bidsCount }
+    const favItemListDetails = { image, title, currentBidPrice, bidsCount,id }
 
     const containerId = useId(); 
 
@@ -20,6 +20,8 @@ const Auction = ({ item, handleFavCount }) => {
 
     // Button Disable
     const [clicked, setClicked] = useState(false)
+
+    
     
     
 

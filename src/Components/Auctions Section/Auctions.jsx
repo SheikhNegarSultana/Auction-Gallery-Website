@@ -20,6 +20,14 @@ const Auctions = () => {
     }
 
 
+    // Remove Items
+
+    const handleRemoveItems = (id) =>{
+        setFavItemsList( favItemsList.filter( item => item.id !== id) )
+        console.log('clicked')
+    } 
+
+
     
     return (
         <>
@@ -54,7 +62,8 @@ const Auctions = () => {
             <Auction 
             key={item.id} 
             item={item}
-            handleFavCount={handleFavCount}></Auction> )
+            handleFavCount={handleFavCount}
+            ></Auction> )
         }
   </tbody>
 </table>
@@ -64,7 +73,9 @@ const Auctions = () => {
 
         {/* Favorites */}
         <div className='bg-white w-[30%] rounded-2xl '>
-       <FavoriteItems favItemsList={favItemsList}></FavoriteItems>
+       <FavoriteItems 
+       favItemsList={favItemsList}
+       handleRemoveItems={handleRemoveItems}></FavoriteItems>
 
         </div>
 

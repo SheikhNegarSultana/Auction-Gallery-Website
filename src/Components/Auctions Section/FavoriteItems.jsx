@@ -1,8 +1,7 @@
-import React from 'react';
 import { GoHeart } from "react-icons/go";
 import { RxCrossCircled } from "react-icons/rx";
 
-const FavoriteItems = ({favItemsList}) => {
+const FavoriteItems = ({favItemsList,handleRemoveItems}) => {
 
     // Total Amount
     let totalPrice = 0
@@ -10,6 +9,7 @@ const FavoriteItems = ({favItemsList}) => {
     for( const price of favItemsList){
         totalPrice = totalPrice + price.currentBidPrice
     }
+
 
     return (
         <div className=' py-[1.4rem]   '>
@@ -43,7 +43,7 @@ favItemsList.map( (item,index) => (
 <div className="flex justify-between items-center gap-[1rem]">
   <h1 className="text-[1rem] ">{item.title}</h1>
   <button className="flex items-center justify-center">
-    <RxCrossCircled className=' h-[2rem] w-[2rem] font-extrabold cursor-pointer' />
+    <RxCrossCircled onClick={()=>handleRemoveItems(item.id)} className=' h-[2rem] w-[2rem] font-extrabold cursor-pointer' />
   </button>
 </div>
 
